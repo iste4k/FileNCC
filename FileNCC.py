@@ -3,8 +3,7 @@ import os   # importing os module
 
 # identifying paths and other variables
 host_path = os.getcwd() # gets the current directory path
-directory_path = input("Host directoreh: ")   # the host directory path
-directory_path = host_path + "\\" + directory_path.replace(" ", "_")
+directory_path = host_path
 # total_files = 0 # number of total files in the host directory
 user_input = input("Name format: ").replace(" ", "_")
 old_list = []
